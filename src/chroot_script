@@ -9,6 +9,7 @@ set -e
 source /common.sh
 
 unpack /filesystem/home/pi /home/pi pi
+unpack /filesystem/home/root /home/root root
 unpack /filesystem/boot /boot
 apt-get update
 
